@@ -1,0 +1,9 @@
+
+// Miscellaneous theme css
+@import "components/_normalize.scss";
+
+
+// Include wysiwyg grid and typograpy in theme css as well as output to a seperate file for use directly in the wysywyg
+@import "components/_typography.scss";
+@import "components/_grid.scss";
+

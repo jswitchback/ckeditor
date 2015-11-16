@@ -1,0 +1,17 @@
+/* Used in CKEditor to closely approximate theme styles */
+
+
+// Most important
+@import "components/_grid.scss";
+
+// Miscellaneous files needed to make the wysiwyg content look close
+@import "components/_normalize.scss"; // OR html-reset, etc ...
+@import "components/_modular.scss"; // Various elements with custom styles...
+@import "components/_typography.scss"; // Header tags, blockqoutes, horizontal rules and other custom wysiwyg classes
+@import "components/_forms.scss"; // Tables
+
+
+// Otherwise example iframe in wysiwyg collapses to 0px height.
+.video-container {
+  min-height: 320px;
+}
